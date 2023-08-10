@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="dcb8373d972035104aa5f0b0f053af5a" label="Asset Category" max_length="40" name="x_1089660_electr_0_asset_category" type="collection">
+        <element label="Name" mandatory="true" max_length="200" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+    </element>
+</database>

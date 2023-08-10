@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9c9db7b1976035104aa5f0b0f053af5b" label="Asset Detail" max_length="40" name="x_1089660_electr_0_asset_detail" type="collection">
+        <element label="Asset Category" mandatory="true" max_length="32" name="asset_category" reference="x_1089660_electr_0_asset_category" type="reference"/>
+        <element label="Code" mandatory="true" max_length="40" name="code" type="string"/>
+        <element label="Name" mandatory="true" max_length="200" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="3" default="Available" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Reserve" sequence="0" value="reserve"/>
+                <element inactive_on_update="false" label="Lent Out" sequence="1" value="lent_out"/>
+                <element inactive_on_update="false" label="Not Available" sequence="2" value="not_available"/>
+                <element inactive_on_update="false" label="Available" sequence="3" value="available"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="asset_category"/>
+        </index>
+    </element>
+</database>
