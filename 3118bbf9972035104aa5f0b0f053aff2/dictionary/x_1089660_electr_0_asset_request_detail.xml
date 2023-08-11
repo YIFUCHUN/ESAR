@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="94e497ca972031104aa5f0b0f053af94" label="Asset Request Detail" max_length="40" name="x_1089660_electr_0_asset_request_detail" type="collection">
+        <element label="Approver" max_length="32" name="approver" reference="sys_user" type="reference"/>
+        <element label="Asset Category" max_length="32" name="asset_category" reference="x_1089660_electr_0_asset_category" type="reference"/>
+        <element label="Asset Name" max_length="32" name="asset_name" reference="x_1089660_electr_0_asset_detail" type="reference"/>
+        <element label="Comments" max_length="40" name="comments" type="journal_input"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="bdcb83a85f220100a9ad2572f2b4773d" label="Requester" max_length="32" name="requester" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="Reviewer" max_length="32" name="reviewer" reference="sys_user" type="reference"/>
+        <element choice="1" default="draft" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="Submitted" sequence="1" value="submitted"/>
+                <element inactive_on_update="false" label="Confirmed" sequence="2" value="confirmed"/>
+                <element inactive_on_update="false" label="Approved" sequence="3" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="4" value="rejected"/>
+                <element inactive_on_update="false" label="Returned" sequence="5" value="returned"/>
+            </choice>
+        </element>
+        <element label="When Need" max_length="40" name="when_need" type="calendar_date_time"/>
+        <element label="Work Notes" max_length="40" name="work_notes" type="journal"/>
+        <index name="index">
+            <element name="approver"/>
+        </index>
+        <index name="index2">
+            <element name="asset_category"/>
+        </index>
+        <index name="index3">
+            <element name="asset_name"/>
+        </index>
+        <index name="index4">
+            <element name="requester"/>
+        </index>
+        <index name="index5">
+            <element name="reviewer"/>
+        </index>
+    </element>
+</database>
