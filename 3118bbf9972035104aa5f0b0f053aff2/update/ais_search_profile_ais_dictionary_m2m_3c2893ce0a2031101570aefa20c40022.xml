@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="default_stop_word_dictionary">9865058bc7031010d1cfd9795cc26037</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="Electronic System Access Request Approve search profile">f82893cebb203110eb2d32e95e024034</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 01:40:06</sys_created_on>
+        <sys_id>3c2893ce0a2031101570aefa20c40022</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>default_stop_word_dictionary.Electronic System Access Request Approve search profile</sys_name>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_3c2893ce0a2031101570aefa20c40022</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 01:40:06</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

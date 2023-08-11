@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_ribbon_config">
+    <sys_ux_ribbon_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Electronic System Access Request Approve Ribbon Config</description>
+        <name>Electronic System Access Request Approve Ribbon Config</name>
+        <sys_class_name>sys_ux_ribbon_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 01:40:06</sys_created_on>
+        <sys_id>3c2893cece203110e2f0f475d8075f21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Electronic System Access Request Approve Ribbon Config</sys_name>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_update_name>sys_ux_ribbon_config_3c2893cece203110e2f0f475d8075f21</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 01:40:06</sys_updated_on>
+    </sys_ux_ribbon_config>
+</record_update>

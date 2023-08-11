@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_canvas">
+    <par_dashboard_canvas action="INSERT_OR_UPDATE">
+        <dashboard display_value="Electronic System Access Request Approve">f82893ce182031107ad8571c88023a22</dashboard>
+        <dashboard_tab/>
+        <layout>[]</layout>
+        <sys_class_name>par_dashboard_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 01:40:06</sys_created_on>
+        <sys_id>b02893ce2d2031108356279d5d633734</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_update_name>par_dashboard_canvas_b02893ce2d2031108356279d5d633734</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 01:40:06</sys_updated_on>
+    </par_dashboard_canvas>
+</record_update>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">342893ce202031108116c51e23752c23</canvas>
+        <component display_value="">7219cee4e0177c3cf2e48d550ce0f71b</component>
+        <component_props>{"listTitle":"Completed Approvals","table":"x_1089660_electr_0_asset_request","query":"active=true","columns":"","groupByField":"","limit":5,"maxColumns":5,"page":1,"highlightedValueConfigId":"","hideHighlightedValues":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideRefreshButton":false,"hideLastRefreshedText":false,"hideColumnResizing":true,"hideColumnGrouping":true,"hideColumnFiltering":true,"hideColumnSorting":false,"hidePersonalization":true,"hideColumnReorder":true,"hideDotwalk":true,"hideInlineEditing":true,"hideHighlightContent":false,"highlightContent":"{ \"patterns\": [], \"color\" : \"\" }","hideLinks":false,"hideViewAll":false,"hideCellFilter":true,"hideCheckboxHover":true,"hideFilterPanel":false,"hideFirstPage":false,"hideLastPage":false,"hideLimitSelector":false,"hideMenuButton":true,"hideMultiEdit":false,"hideDeclarativeActions":false,"hideNextPage":false,"hidePages":false,"hidePagination":true,"hidePanel":true,"hidePanelAdvanced":false,"hidePanelConditionDelete":false,"hidePanelFooter":false,"hidePanelRestore":false,"hidePreviousPage":false,"hideQuickEdit":true,"hideRange":false,"hideRowCount":false,"hideRowSelector":false,"hideSelectAll":true,"hideEmptyStateImage":false,"hideDBViews":false,"hideUnnecessaryRowSelectors":true,"overrideWordWrapUserPref":false,"wordWrap":false,"maxCharLimit":4000,"refreshRequested":"","recordSelectedTable":"","recordSelectedSysId":"","recordSelectedQuery":"","recordSelectedView":""}</component_props>
+        <h>16</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 02:11:12</sys_created_on>
+        <sys_id>e44fd7c6976031104aa5f0b0f053af52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_update_name>par_dashboard_widget_e44fd7c6976031104aa5f0b0f053af52</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 02:11:12</sys_updated_on>
+        <visualization/>
+        <w>10</w>
+        <x>2</x>
+        <y>16</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</application>
+        <file_path/>
+        <instance_id>127b73bddb4e11180b9d21c4059619f9</instance_id>
+        <instance_name>dev135336</instance_name>
+        <name>par_dashboard_widget_e44fd7c6976031104aa5f0b0f053af52</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">342893ce202031108116c51e23752c23</canvas><component display_value="">7219cee4e0177c3cf2e48d550ce0f71b</component><component_props>{"listTitle":"Completed Approvals","table":"x_1089660_electr_0_asset_request","query":"active=true","columns":"","groupByField":"","limit":5,"maxColumns":5,"page":1,"highlightedValueConfigId":"","hideHighlightedValues":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideRefreshButton":false,"hideLastRefreshedText":false,"hideColumnResizing":true,"hideColumnGrouping":true,"hideColumnFiltering":true,"hideColumnSorting":false,"hidePersonalization":true,"hideColumnReorder":true,"hideDotwalk":true,"hideInlineEditing":true,"hideHighlightContent":false,"highlightContent":"{ \"patterns\": [], \"color\" : \"\" }","hideLinks":false,"hideViewAll":false,"hideCellFilter":true,"hideCheckboxHover":true,"hideFilterPanel":false,"hideFirstPage":false,"hideLastPage":false,"hideLimitSelector":false,"hideMenuButton":true,"hideMultiEdit":false,"hideDeclarativeActions":false,"hideNextPage":false,"hidePages":false,"hidePagination":true,"hidePanel":true,"hidePanelAdvanced":false,"hidePanelConditionDelete":false,"hidePanelFooter":false,"hidePanelRestore":false,"hidePreviousPage":false,"hideQuickEdit":true,"hideRange":false,"hideRowCount":false,"hideRowSelector":false,"hideSelectAll":true,"hideEmptyStateImage":false,"hideDBViews":false,"hideUnnecessaryRowSelectors":true,"overrideWordWrapUserPref":false,"wordWrap":false,"maxCharLimit":4000,"refreshRequested":"","recordSelectedTable":"","recordSelectedSysId":"","recordSelectedQuery":"","recordSelectedView":""}</component_props><h>16</h><name/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-11 02:11:12</sys_created_on><sys_id>e44fd7c6976031104aa5f0b0f053af52</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package><sys_policy/><sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope><sys_update_name>par_dashboard_widget_e44fd7c6976031104aa5f0b0f053af52</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-11 02:11:12</sys_updated_on><visualization/><w>10</w><x>2</x><y>16</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-2144078531</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>0bfe8b46972031104aa5f0b0f053af34</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 02:11:13</sys_created_on>
+        <sys_id>604fd7c6976031104aa5f0b0f053af54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189e25cb1ec0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 02:11:13</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>a84fd7c6fb6031102668fdb65e754a53</update_guid>
+        <update_guid_history>a84fd7c6fb6031102668fdb65e754a53:-2144078531</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">a0ff930a976031104aa5f0b0f053af00</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 02:14:12</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>1bc8dd24a80c46f29e494b0cbbcd8ca4</sys_id>
+        <sys_metadata>e44fd7c6976031104aa5f0b0f053af52</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_scope_delete display_value="">04bc2c2da8b247dc8029aeed21864719</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_e44fd7c6976031104aa5f0b0f053af52</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_e44fd7c6976031104aa5f0b0f053af52">604fd7c6976031104aa5f0b0f053af54</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 02:14:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

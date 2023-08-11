@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">342893ce202031108116c51e23752c23</canvas>
+        <component display_value="">3a64f550256090d9578ede76158e899c</component>
+        <component_props>{"variant":"header-tertiary","label":"Happening now","wontWrap":false,"hasNoMargin":false,"level":"1"}</component_props>
+        <h>2</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 01:40:06</sys_created_on>
+        <sys_id>782893cefa20311027ffdd159a049031</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_update_name>par_dashboard_widget_782893cefa20311027ffdd159a049031</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 01:40:06</sys_updated_on>
+        <visualization/>
+        <w>12</w>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</application>
+        <file_path/>
+        <instance_id>127b73bddb4e11180b9d21c4059619f9</instance_id>
+        <instance_name>dev135336</instance_name>
+        <name>par_dashboard_widget_782893cefa20311027ffdd159a049031</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">342893ce202031108116c51e23752c23</canvas><component display_value="">3a64f550256090d9578ede76158e899c</component><component_props>{"variant":"header-tertiary","label":"Happening now","wontWrap":false,"hasNoMargin":false,"level":"1"}</component_props><h>2</h><name/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-11 01:40:06</sys_created_on><sys_id>782893cefa20311027ffdd159a049031</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package><sys_policy/><sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope><sys_update_name>par_dashboard_widget_782893cefa20311027ffdd159a049031</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-11 01:40:06</sys_updated_on><visualization/><w>12</w><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>1534994905</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>115dd722971031104aa5f0b0f053af7f</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by/>
+        <sys_created_on>2023-07-31 05:04:04</sys_created_on>
+        <sys_id>96fb9306976031104aa5f0b0f053af21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189aa54fda00000000</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 03:21:52</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>56fb93068a6031103a40728056e66221</update_guid>
+        <update_guid_history>56fb93068a6031103a40728056e66221:1534994905</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">5afb9306976031104aa5f0b0f053af23</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 01:56:51</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>83348d8f86844672a05427abdcf65749</sys_id>
+        <sys_metadata>782893cefa20311027ffdd159a049031</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_scope_delete display_value="">04bc2c2da8b247dc8029aeed21864719</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_782893cefa20311027ffdd159a049031</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_782893cefa20311027ffdd159a049031">96fb9306976031104aa5f0b0f053af21</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 01:56:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
