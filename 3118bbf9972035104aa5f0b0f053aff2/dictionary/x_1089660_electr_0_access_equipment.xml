@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0f88df4897f87510b0dbfcdfe153af60" label="Access Equipment" max_length="40" name="x_1089660_electr_0_access_equipment" type="collection">
+        <element label="Asset" max_length="32" name="asset" reference="x_1089660_electr_0_asset_detail" type="reference"/>
+        <element label="Equipment Name" max_length="40" name="equipment_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Request" max_length="32" name="request" reference="x_1089660_electr_0_asset_request_detail" type="reference"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Move-in" sequence="0" value="move_in"/>
+                <element inactive_on_update="false" label="Move-out" sequence="1" value="move_out"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="asset"/>
+        </index>
+        <index name="index2">
+            <element name="request"/>
+        </index>
+    </element>
+</database>

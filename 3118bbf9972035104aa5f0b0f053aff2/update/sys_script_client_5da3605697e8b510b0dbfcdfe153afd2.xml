@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>asset_category</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Asset Category OnChange</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	g_form.clearValue('asset_name');
+//    //Type appropriate comment here, and begin script below
+// 	var getAssetNames = new GlideAjax('GetAssetNames');
+// 	getAssetNames.addParam('sysparm_name','getAssets');
+// 	getAssetNames.addParam('sysparm_asset_category','Software');
+// 	console.log(g_form.getReference('priority'));
+// 	debugger;
+// 	getAssetNames.getXML(populateAssetNameField);
+	
+// 	function populateAssetNameField(response){
+// 	debugger;	
+//     var assetFromScriptInclude = response.responseXML.documentElement.getAttribute("answer");
+//     g_form.clearValue('asset_name');
+//     g_form.setValue('asset_name',assetFromScriptInclude);
+//   }
+}
+
+
+// function onChange() {
+//    var ga = new GlideAjax('GetAssetInfo'); // GetUserInfo is the script include name 
+//    ga.addParam('sysparm_name','getAssets'); // managerName is the function in the script include that we’re calling 
+//    ga.addParam('sysparm_asset_category','Software'); // set user to Fred Luddy 
+
+//    /* Call GetUserInfo.managerName() with user set to Fred Luddy and use the callback function ManagerParse() to return the result when ready */
+//    ga.getXML(ManagerParse);  		
+// }
+
+// // callback function for returning the result from the script include
+// function ManagerParse(response) {  
+// 	debugger;
+//    alert(response);
+// }
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 07:44:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5da3605697e8b510b0dbfcdfe153afd2</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Asset Category OnChange</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_update_name>sys_script_client_5da3605697e8b510b0dbfcdfe153afd2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-14 03:41:09</sys_updated_on>
+        <table>x_1089660_electr_0_asset_request_detail</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

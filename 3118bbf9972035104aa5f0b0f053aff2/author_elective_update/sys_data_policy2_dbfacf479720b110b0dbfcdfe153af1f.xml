@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2">
+    <sys_data_policy2 action="DELETE">
+        <active>false</active>
+        <apply_import_set>true</apply_import_set>
+        <apply_soap>true</apply_soap>
+        <conditions table="x_1089660_electr_0_asset_request_detail">status!=1^EQ<item display_value="Draft" endquery="false" field="status" goto="false" newquery="false" operator="!=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <enforce_ui>false</enforce_ui>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table>x_1089660_electr_0_asset_request_detail</model_table>
+        <reverse_if_false>true</reverse_if_false>
+        <short_description>ESAR Status is not draft</short_description>
+        <sys_class_name>sys_data_policy2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-14 03:38:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dbfacf479720b110b0dbfcdfe153af1f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ESAR Status is not draft</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_update_name>sys_data_policy2_dbfacf479720b110b0dbfcdfe153af1f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-14 03:43:19</sys_updated_on>
+    </sys_data_policy2>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</application>
+        <file_path/>
+        <instance_id>4dc6d809db4129545dc32f17d49619cd</instance_id>
+        <instance_name>dev148648</instance_name>
+        <name>sys_data_policy2_dbfacf479720b110b0dbfcdfe153af1f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2"><sys_data_policy2 action="INSERT_OR_UPDATE"><active>false</active><apply_import_set>true</apply_import_set><apply_soap>true</apply_soap><conditions table="x_1089660_electr_0_asset_request_detail">status!=1^EQ<item display_value="Draft" endquery="false" field="status" goto="false" newquery="false" operator="!=" or="false" value="1"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></conditions><description/><enforce_ui>false</enforce_ui><inherit>false</inherit><model_id/><model_table>x_1089660_electr_0_asset_request_detail</model_table><reverse_if_false>true</reverse_if_false><short_description>ESAR Status is not draft</short_description><sys_class_name>sys_data_policy2</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-14 03:38:15</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>dbfacf479720b110b0dbfcdfe153af1f</sys_id><sys_mod_count>1</sys_mod_count><sys_name>ESAR Status is not draft</sys_name><sys_overrides/><sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package><sys_policy/><sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope><sys_update_name>sys_data_policy2_dbfacf479720b110b0dbfcdfe153af1f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-14 03:43:19</sys_updated_on></sys_data_policy2></record_update>]]></payload>
+        <payload_hash>-1792939401</payload_hash>
+        <record_name>ESAR Status is not draft</record_name>
+        <reverted_from/>
+        <source>23985b0e9764b510b0dbfcdfe153af86</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-14 03:43:19</sys_created_on>
+        <sys_id>c711130f9720b110b0dbfcdfe153af9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189f22418760000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-14 03:43:19</sys_updated_on>
+        <type>Data Policy</type>
+        <update_guid>0f11130f4520b1107b474ba5136d009e</update_guid>
+        <update_guid_history>0f11130f4520b1107b474ba5136d009e:-1792939401,74ff874bd320b1103b0768b3d23dd27d:-1974518504</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-16 01:45:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_policy2">sys_data_policy2</sys_db_object>
+        <sys_id>41a4a3357a67423b87021c1280170939</sys_id>
+        <sys_metadata>dbfacf479720b110b0dbfcdfe153af1f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ESAR Status is not draft</sys_name>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_parent display_value="Asset Request Detail">ae60c81e9728b510b0dbfcdfe153af0e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_scope_delete display_value="">04bc2c2da8b247dc8029aeed21864719</sys_scope_delete>
+        <sys_update_name>sys_data_policy2_dbfacf479720b110b0dbfcdfe153af1f</sys_update_name>
+        <sys_update_version display_value="sys_data_policy2_dbfacf479720b110b0dbfcdfe153af1f">c711130f9720b110b0dbfcdfe153af9f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-16 01:45:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

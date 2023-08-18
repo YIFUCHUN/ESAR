@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream">
+    <sys_sg_item_stream action="INSERT_OR_UPDATE">
+        <data_item display_value="All Data Item">b1df9e0497387510b0dbfcdfe153afec</data_item>
+        <interleaved_field/>
+        <name>0adfde0497387510b0dbfcdfe153af91 Item Stream</name>
+        <sys_class_name>sys_sg_item_stream</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 02:41:59</sys_created_on>
+        <sys_id>4adfde0497387510b0dbfcdfe153af96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0adfde0497387510b0dbfcdfe153af91 Item Stream</sys_name>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_update_name>sys_sg_item_stream_4adfde0497387510b0dbfcdfe153af96</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 02:41:59</sys_updated_on>
+        <table/>
+    </sys_sg_item_stream>
+</record_update>

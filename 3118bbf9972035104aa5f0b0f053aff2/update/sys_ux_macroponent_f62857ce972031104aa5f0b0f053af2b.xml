@@ -669,7 +669,7 @@
                         },
                         "canPostMandatoryFields" : {
                           "type" : "JSON_LITERAL",
-                          "value" : false
+                          "value" : true
                         },
                         "allowJournalFieldSettingsOverrides" : {
                           "type" : "JSON_LITERAL",
@@ -677,7 +677,13 @@
                         },
                         "useTabs" : {
                           "type" : "JSON_LITERAL",
-                          "value" : true
+                          "value" : false
+                        },
+                        "isNewRecord" : {
+                          "type" : "DATA_OUTPUT_BINDING",
+                          "binding" : {
+                            "address" : [ "record", "isNew" ]
+                          }
                         },
                         "title" : {
                           "type" : "TRANSLATION_LITERAL",
@@ -687,17 +693,29 @@
                             "comment" : ""
                           }
                         },
+                        "fields" : {
+                          "type" : "DATA_OUTPUT_BINDING",
+                          "binding" : {
+                            "address" : [ "record", "form", "fields" ]
+                          }
+                        },
                         "emailAction" : {
                           "type" : "JSON_LITERAL",
                           "value" : { }
                         },
+                        "table" : {
+                          "type" : "DATA_OUTPUT_BINDING",
+                          "binding" : {
+                            "address" : [ "record", "table" ]
+                          }
+                        },
                         "isSideBySideViewAvailable" : {
                           "type" : "JSON_LITERAL",
-                          "value" : false
+                          "value" : true
                         },
                         "isSideBySideViewEnabled" : {
                           "type" : "JSON_LITERAL",
-                          "value" : false
+                          "value" : true
                         }
                       },
                       "eventMappings" : [ ],
@@ -2208,7 +2226,18 @@
                     "composition" : [ {
                       "elementId" : "primary_field",
                       "elementLabel" : "Primary field",
-                      "propertyValues" : { },
+                      "propertyValues" : {
+                        "variant" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : "header-primary"
+                        },
+                        "label" : {
+                          "type" : "DATA_OUTPUT_BINDING",
+                          "binding" : {
+                            "address" : [ "record", "form", "header", "primaryItem", "displayValue" ]
+                          }
+                        }
+                      },
                       "eventMappings" : [ ],
                       "slot" : null,
                       "definition" : {
@@ -2307,7 +2336,7 @@
                   },
                   "isHidden" : {
                     "type" : "JSON_LITERAL",
-                    "value" : null
+                    "value" : true
                   },
                   "isHero" : false,
                   "extensionPoints" : [ ],
@@ -2319,7 +2348,14 @@
                 }, {
                   "elementId" : "subheading",
                   "elementLabel" : "Subheading",
-                  "propertyValues" : { },
+                  "propertyValues" : {
+                    "text" : {
+                      "type" : "DATA_OUTPUT_BINDING",
+                      "binding" : {
+                        "address" : [ "record", "form", "header", "subHeadingValue" ]
+                      }
+                    }
+                  },
                   "eventMappings" : [ ],
                   "slot" : null,
                   "definition" : {
@@ -2501,12 +2537,145 @@
                     "width" : "max-content",
                     "max-width" : "200%"
                   }
+                }, {
+                  "elementId" : "container_4",
+                  "elementLabel" : "Container 4",
+                  "propertyValues" : {
+                    "ariaRegionHeadingLevel" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "1"
+                    },
+                    "hideEmptyStateUi" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : true
+                    },
+                    "ariaRegionName" : {
+                      "type" : "TRANSLATION_LITERAL",
+                      "value" : {
+                        "code" : null,
+                        "message" : "",
+                        "comment" : ""
+                      }
+                    },
+                    "includeAriaHeading" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : false
+                    },
+                    "type" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "section"
+                    },
+                    "ariaRole" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : ""
+                    }
+                  },
+                  "eventMappings" : [ ],
+                  "slot" : null,
+                  "definition" : {
+                    "id" : "d356d14b6e293a3020a244b63d278d8f",
+                    "type" : "MACROPONENT"
+                  },
+                  "overrides" : {
+                    "composition" : [ {
+                      "elementId" : "record_header_1",
+                      "elementLabel" : "Record Header 1",
+                      "propertyValues" : {
+                        "primaryValue" : {
+                          "type" : "DATA_OUTPUT_BINDING",
+                          "binding" : {
+                            "address" : [ "record", "form", "header", "primaryItem", "displayValue" ]
+                          }
+                        },
+                        "hideTagsValue" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : false
+                        },
+                        "subHeadingValue" : {
+                          "type" : "TRANSLATION_LITERAL",
+                          "value" : {
+                            "code" : null,
+                            "message" : "",
+                            "comment" : ""
+                          }
+                        },
+                        "headerImageItem" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : null
+                        },
+                        "workspaceConfigId" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : ""
+                        },
+                        "sysId" : {
+                          "type" : "DATA_OUTPUT_BINDING",
+                          "binding" : {
+                            "address" : [ "record", "sysId" ]
+                          }
+                        },
+                        "recordTags" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : null
+                        },
+                        "secondaryItems" : {
+                          "type" : "DATA_OUTPUT_BINDING",
+                          "binding" : {
+                            "address" : [ "record", "form", "header", "secondaryItems", "0" ]
+                          }
+                        },
+                        "table" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : "x_1089660_electr_0_asset_request_detail"
+                        }
+                      },
+                      "eventMappings" : [ ],
+                      "slot" : null,
+                      "definition" : {
+                        "id" : "4d537db98a05adaf55f9e219c50d1358",
+                        "type" : "MACROPONENT"
+                      },
+                      "overrides" : null,
+                      "isHidden" : {
+                        "type" : "JSON_LITERAL",
+                        "value" : null
+                      },
+                      "isHero" : false,
+                      "extensionPoints" : [ ],
+                      "isNonDestructive" : false,
+                      "items" : [ ],
+                      "styles" : { }
+                    } ],
+                    "layout" : {
+                      "default" : {
+                        "children" : null,
+                        "isInline" : null,
+                        "items" : [{"element_id":"record_header_1","styles":{"width":""}}],
+                        "root" : null,
+                        "rules" : null,
+                        "styles" : {"flex-direction":"column"},
+                        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+                        "type" : "flex"
+                      },
+                      "version" : "3.0.0"
+                    }
+                  },
+                  "isHidden" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : null
+                  },
+                  "isHero" : false,
+                  "extensionPoints" : [ ],
+                  "isNonDestructive" : false,
+                  "items" : [ ],
+                  "styles" : {
+                    "width" : "100%"
+                  }
                 } ],
                 "layout" : {
                   "default" : {
                     "children" : null,
                     "isInline" : null,
-                    "items" : [{"element_id":"header_title_row","styles":{}},{"element_id":"subheading","styles":{}},{"element_id":"secondary_items","styles":{}}],
+                    "items" : [{"element_id":"header_title_row","styles":{}},{"element_id":"container_4","styles":{}},{"element_id":"subheading","styles":{}},{"element_id":"secondary_items","styles":{}}],
                     "root" : null,
                     "rules" : null,
                     "styles" : {"flex-direction":"column"},
@@ -3402,7 +3571,7 @@
           "type" : "TRANSLATION_LITERAL",
           "value" : {
             "code" : null,
-            "message" : "Enter a label",
+            "message" : "Approve this request",
             "comment" : ""
           }
         },
@@ -3496,7 +3665,7 @@
           "type" : "TRANSLATION_LITERAL",
           "value" : {
             "code" : null,
-            "message" : "Enter a label",
+            "message" : "Reject this request",
             "comment" : ""
           }
         },
@@ -3590,7 +3759,7 @@
           "type" : "TRANSLATION_LITERAL",
           "value" : {
             "code" : null,
-            "message" : "Enter a label",
+            "message" : "Return this request",
             "comment" : ""
           }
         },
@@ -3668,8 +3837,51 @@
     }
   },
   "isHidden" : {
-    "type" : "JSON_LITERAL",
-    "value" : null
+    "type" : "UNARY",
+    "operation" : {
+      "operand" : {
+        "type" : "BINARY",
+        "operation" : {
+          "left" : {
+            "type" : "BINARY",
+            "operation" : {
+              "left" : {
+                "type" : "DATA_OUTPUT_BINDING",
+                "binding" : {
+                  "address" : [ "record", "form", "fields", "status", "value" ]
+                }
+              },
+              "operator" : "EQUAL",
+              "right" : {
+                "type" : "JSON_LITERAL",
+                "value" : "confirmed"
+              }
+            }
+          },
+          "operator" : "AND",
+          "right" : {
+            "type" : "BINARY",
+            "operation" : {
+              "left" : {
+                "type" : "DATA_OUTPUT_BINDING",
+                "binding" : {
+                  "address" : [ "record", "form", "fields", "approver", "value" ]
+                }
+              },
+              "operator" : "EQUAL",
+              "right" : {
+                "type" : "CONTEXT_BINDING",
+                "binding" : {
+                  "address" : [ "user", "sys_id" ],
+                  "category" : "session"
+                }
+              }
+            }
+          }
+        }
+      },
+      "operator" : "NOT"
+    }
   },
   "isHero" : false,
   "extensionPoints" : [ ],
@@ -3750,7 +3962,7 @@
           "type" : "TRANSLATION_LITERAL",
           "value" : {
             "code" : null,
-            "message" : "Please input approveal comments",
+            "message" : "Please input approval comments",
             "comment" : ""
           }
         },
@@ -3807,7 +4019,31 @@
           "value" : false
         }
       },
-      "eventMappings" : [ ],
+      "eventMappings" : [ {
+        "eventMappingId" : "cllggeehhbblcaaggovddohhtzwopdccko",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_textarea.NOW_TEXTAREA#VALUE_SET",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_textarea.NOW_TEXTAREA#VALUE_SET",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : {
+            "sysId" : "bbbfef8a97a031104aa5f0b0f053afa4"
+          },
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : null,
+          "operation" : null,
+          "targetId" : "cllggeehhbblcaaggowddohhteeynawjggf",
+          "type" : "CLIENT_SCRIPT"
+        } ]
+      } ],
       "slot" : null,
       "definition" : {
         "id" : "d667a5e769598b2e5c6e92ebe73394f6",
@@ -3839,8 +4075,51 @@
     }
   },
   "isHidden" : {
-    "type" : "JSON_LITERAL",
-    "value" : null
+    "type" : "UNARY",
+    "operation" : {
+      "operand" : {
+        "type" : "BINARY",
+        "operation" : {
+          "left" : {
+            "type" : "BINARY",
+            "operation" : {
+              "left" : {
+                "type" : "DATA_OUTPUT_BINDING",
+                "binding" : {
+                  "address" : [ "record", "form", "fields", "status", "value" ]
+                }
+              },
+              "operator" : "EQUAL",
+              "right" : {
+                "type" : "JSON_LITERAL",
+                "value" : "confirmed"
+              }
+            }
+          },
+          "operator" : "AND",
+          "right" : {
+            "type" : "BINARY",
+            "operation" : {
+              "left" : {
+                "type" : "DATA_OUTPUT_BINDING",
+                "binding" : {
+                  "address" : [ "record", "form", "fields", "approver", "value" ]
+                }
+              },
+              "operator" : "EQUAL",
+              "right" : {
+                "type" : "CONTEXT_BINDING",
+                "binding" : {
+                  "address" : [ "user", "sys_id" ],
+                  "category" : "session"
+                }
+              }
+            }
+          }
+        }
+      },
+      "operator" : "NOT"
+    }
   },
   "isHero" : false,
   "extensionPoints" : [ ],
@@ -4030,7 +4309,7 @@
       },
       "overrides" : {
         "composition" : [ {
-          "elementId" : "approve",
+          "elementId" : "approved",
           "elementLabel" : "Approve",
           "propertyValues" : {
             "size" : {
@@ -4070,7 +4349,31 @@
               "container" : { }
             }
           },
-          "eventMappings" : [ ],
+          "eventMappings" : [ {
+            "eventMappingId" : "cllggeeeepwqaaggnyddohhtjlmaeefcq",
+            "isConfiguration" : false,
+            "offRowStorageId" : null,
+            "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+            "sourceEventCorrelationId" : null,
+            "sourceEventDefinition" : {
+              "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+              "id" : null,
+              "type" : "UXEVENT"
+            },
+            "sourceEventSysId" : null,
+            "targets" : [ {
+              "broker" : null,
+              "clientScript" : {
+                "sysId" : "c9ffe3ca97a031104aa5f0b0f053af33"
+              },
+              "conditional" : null,
+              "declarativeAction" : null,
+              "event" : null,
+              "operation" : null,
+              "targetId" : "cllggeeeepwqaaggnzddohhtpgaeeqhum",
+              "type" : "CLIENT_SCRIPT"
+            } ]
+          } ],
           "slot" : null,
           "definition" : {
             "id" : "d37ce8abca89d02905fed903c8e34d8e",
@@ -4185,7 +4488,7 @@
           "default" : {
             "children" : null,
             "isInline" : null,
-            "items" : [{"element_id":"approve_cancel","styles":{"margin":"var(--now-static-space--lg)"}},{"element_id":"approve","styles":{"margin":"var(--now-static-space--lg)"}}],
+            "items" : [{"element_id":"approve_cancel","styles":{"margin":"var(--now-static-space--lg)"}},{"element_id":"approved","styles":{"margin":"var(--now-static-space--lg)"}}],
             "root" : null,
             "rules" : null,
             "styles" : {"flex-direction":"row","justify-content":"flex-end"},
@@ -4413,7 +4716,7 @@
       },
       "overrides" : {
         "composition" : [ {
-          "elementId" : "reject",
+          "elementId" : "rejected",
           "elementLabel" : "Reject",
           "propertyValues" : {
             "size" : {
@@ -4453,7 +4756,31 @@
               "container" : { }
             }
           },
-          "eventMappings" : [ ],
+          "eventMappings" : [ {
+            "eventMappingId" : "cllggeeffddggpaaggoaaddohhtfaaccafggqdd",
+            "isConfiguration" : false,
+            "offRowStorageId" : null,
+            "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+            "sourceEventCorrelationId" : null,
+            "sourceEventDefinition" : {
+              "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+              "id" : null,
+              "type" : "UXEVENT"
+            },
+            "sourceEventSysId" : null,
+            "targets" : [ {
+              "broker" : null,
+              "clientScript" : {
+                "sysId" : "c9ffe3ca97a031104aa5f0b0f053af33"
+              },
+              "conditional" : null,
+              "declarativeAction" : null,
+              "event" : null,
+              "operation" : null,
+              "targetId" : "cllggeeffddggpaaggobbddohhthqinuviia",
+              "type" : "CLIENT_SCRIPT"
+            } ]
+          } ],
           "slot" : null,
           "definition" : {
             "id" : "d37ce8abca89d02905fed903c8e34d8e",
@@ -4568,7 +4895,7 @@
           "default" : {
             "children" : null,
             "isInline" : null,
-            "items" : [{"element_id":"reject_cancel","styles":{"margin":"var(--now-static-space--lg)"}},{"element_id":"reject","styles":{"margin":"var(--now-static-space--lg)"}}],
+            "items" : [{"element_id":"reject_cancel","styles":{"margin":"var(--now-static-space--lg)"}},{"element_id":"rejected","styles":{"margin":"var(--now-static-space--lg)"}}],
             "root" : null,
             "rules" : null,
             "styles" : {"flex-direction":"row","justify-content":"flex-end"},
@@ -4890,7 +5217,7 @@
           "items" : [ ],
           "styles" : { }
         }, {
-          "elementId" : "return",
+          "elementId" : "returned",
           "elementLabel" : "Return",
           "propertyValues" : {
             "size" : {
@@ -4930,7 +5257,31 @@
               "container" : { }
             }
           },
-          "eventMappings" : [ ],
+          "eventMappings" : [ {
+            "eventMappingId" : "cllggeeffjjsiiaaggoccddohhtccsjzrihb",
+            "isConfiguration" : false,
+            "offRowStorageId" : null,
+            "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+            "sourceEventCorrelationId" : null,
+            "sourceEventDefinition" : {
+              "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+              "id" : null,
+              "type" : "UXEVENT"
+            },
+            "sourceEventSysId" : null,
+            "targets" : [ {
+              "broker" : null,
+              "clientScript" : {
+                "sysId" : "c9ffe3ca97a031104aa5f0b0f053af33"
+              },
+              "conditional" : null,
+              "declarativeAction" : null,
+              "event" : null,
+              "operation" : null,
+              "targetId" : "cllggeeffjjsiiaaggoddddohhtaafeicceeffdd",
+              "type" : "CLIENT_SCRIPT"
+            } ]
+          } ],
           "slot" : null,
           "definition" : {
             "id" : "d37ce8abca89d02905fed903c8e34d8e",
@@ -4951,7 +5302,7 @@
           "default" : {
             "children" : null,
             "isInline" : null,
-            "items" : [{"element_id":"return_cancel","styles":{"margin":"var(--now-static-space--lg)"}},{"element_id":"return","styles":{"margin":"var(--now-static-space--lg)"}}],
+            "items" : [{"element_id":"return_cancel","styles":{"margin":"var(--now-static-space--lg)"}},{"element_id":"returned","styles":{"margin":"var(--now-static-space--lg)"}}],
             "root" : null,
             "rules" : null,
             "styles" : {"flex-direction":"row","justify-content":"flex-end"},
@@ -5001,6 +5352,17 @@
 } ]</composition>
         <da_relay_models/>
         <data>[ {
+  "definition" : {
+    "id" : "9b4b978353211010cbc2ddeeff7b1245",
+    "type" : "GRAPHQL"
+  },
+  "dependencies" : { },
+  "elementId" : "update_record_1",
+  "elementLabel" : "Update Record 1",
+  "eventMappings" : [ ],
+  "inputValues" : { },
+  "readEvaluationMode" : "EXPLICIT"
+}, {
   "definition" : {
     "id" : "029f04e053610110ac9bddeeff7b1294",
     "type" : "CONTROLLER"
@@ -5204,7 +5566,7 @@
   "version" : "3.0.0"
 }</layout>
         <macroponent_dependencies/>
-        <name>Asset Request Detail Record Page</name>
+        <name>Record Page - SQCC</name>
         <output_prop_mapping/>
         <props>[ {
   "name" : "screen",
@@ -5340,6 +5702,9 @@
   "message" : "Approve",
   "comment" : ""
 }, {
+  "message" : "Approve this request",
+  "comment" : ""
+}, {
   "message" : "Approve this request?",
   "comment" : ""
 }, {
@@ -5364,13 +5729,16 @@
   "message" : "Enter a label",
   "comment" : ""
 }, {
-  "message" : "Please input approveal comments",
+  "message" : "Please input approval comments",
   "comment" : ""
 }, {
   "message" : "Record not found",
   "comment" : ""
 }, {
   "message" : "Reject",
+  "comment" : ""
+}, {
+  "message" : "Reject this request",
   "comment" : ""
 }, {
   "message" : "Reject this request?",
@@ -5380,6 +5748,9 @@
   "comment" : ""
 }, {
   "message" : "Return",
+  "comment" : ""
+}, {
+  "message" : "Return this request",
   "comment" : ""
 }, {
   "message" : "Return this request?",
@@ -5405,14 +5776,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-11 01:40:14</sys_created_on>
         <sys_id>f62857ce972031104aa5f0b0f053af2b</sys_id>
-        <sys_mod_count>16</sys_mod_count>
-        <sys_name>Asset Request Detail Record Page</sys_name>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_name>Record Page - SQCC</sys_name>
         <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
         <sys_update_name>sys_ux_macroponent_f62857ce972031104aa5f0b0f053af2b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-11 03:17:59</sys_updated_on>
+        <sys_updated_on>2023-08-11 07:35:26</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=f62857ce972031104aa5f0b0f053af2b"/>
 </record_update>

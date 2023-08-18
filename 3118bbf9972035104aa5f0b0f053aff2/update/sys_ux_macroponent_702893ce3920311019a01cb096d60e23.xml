@@ -76,6 +76,10 @@
   "elementId" : "modalContainerViewport",
   "elementLabel" : "Modal Container (Viewport)",
   "propertyValues" : {
+    "labelledby" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
     "size" : {
       "type" : "JSON_LITERAL",
       "value" : "md"
@@ -287,13 +291,13 @@
           "type" : "JSON_LITERAL",
           "value" : "md"
         },
-        "position" : {
-          "type" : "JSON_LITERAL",
-          "value" : "top"
-        },
         "showInlinePadding" : {
           "type" : "JSON_LITERAL",
           "value" : true
+        },
+        "position" : {
+          "type" : "JSON_LITERAL",
+          "value" : "top"
         },
         "items" : {
           "type" : "LIST_CONTAINER",
@@ -369,6 +373,10 @@
             "ariaRegionHeadingLevel" : {
               "type" : "JSON_LITERAL",
               "value" : "1"
+            },
+            "hideEmptyStateUi" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
             },
             "ariaRegionName" : {
               "type" : "TRANSLATION_LITERAL",
@@ -877,13 +885,13 @@
                     "category" : "value"
                   }
                 },
-                "hidePreviousPage" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : false
-                },
                 "maxColumns" : {
                   "type" : "JSON_LITERAL",
                   "value" : 0
+                },
+                "hidePreviousPage" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
                 },
                 "view" : {
                   "type" : "CONTEXT_BINDING",
@@ -1013,6 +1021,10 @@
                   "value" : false
                 },
                 "hideDotwalk" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "hideDeclarativeActions" : {
                   "type" : "JSON_LITERAL",
                   "value" : false
                 },
@@ -1339,13 +1351,13 @@
           "type" : "JSON_LITERAL",
           "value" : "md"
         },
-        "position" : {
-          "type" : "JSON_LITERAL",
-          "value" : "right"
-        },
         "showInlinePadding" : {
           "type" : "JSON_LITERAL",
           "value" : true
+        },
+        "position" : {
+          "type" : "JSON_LITERAL",
+          "value" : "right"
         },
         "items" : {
           "type" : "LIST_CONTAINER",
@@ -1465,6 +1477,10 @@
               "type" : "JSON_LITERAL",
               "value" : "1"
             },
+            "hideEmptyStateUi" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
             "ariaRegionName" : {
               "type" : "TRANSLATION_LITERAL",
               "value" : {
@@ -1560,6 +1576,10 @@
             "ariaRegionHeadingLevel" : {
               "type" : "JSON_LITERAL",
               "value" : "1"
+            },
+            "hideEmptyStateUi" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
             },
             "ariaRegionName" : {
               "type" : "TRANSLATION_LITERAL",
@@ -1929,6 +1949,10 @@
       "type" : "JSON_LITERAL",
       "value" : "1"
     },
+    "hideEmptyStateUi" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
     "ariaRegionName" : {
       "type" : "TRANSLATION_LITERAL",
       "value" : {
@@ -1965,6 +1989,10 @@
           "type" : "JSON_LITERAL",
           "value" : "1"
         },
+        "hideEmptyStateUi" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
         "ariaRegionName" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
@@ -2000,6 +2028,10 @@
             "ariaRegionHeadingLevel" : {
               "type" : "JSON_LITERAL",
               "value" : "1"
+            },
+            "hideEmptyStateUi" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
             },
             "ariaRegionName" : {
               "type" : "TRANSLATION_LITERAL",
@@ -2101,6 +2133,10 @@
                   "type" : "JSON_LITERAL",
                   "value" : "1"
                 },
+                "hideEmptyStateUi" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : true
+                },
                 "ariaRegionName" : {
                   "type" : "TRANSLATION_LITERAL",
                   "value" : {
@@ -2136,6 +2172,10 @@
                     "ariaRegionHeadingLevel" : {
                       "type" : "JSON_LITERAL",
                       "value" : "1"
+                    },
+                    "hideEmptyStateUi" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : true
                     },
                     "ariaRegionName" : {
                       "type" : "TRANSLATION_LITERAL",
@@ -2643,6 +2683,10 @@
           "type" : "JSON_LITERAL",
           "value" : "1"
         },
+        "hideEmptyStateUi" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
         "ariaRegionName" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
@@ -2863,6 +2907,10 @@
       "type" : "JSON_LITERAL",
       "value" : "1"
     },
+    "hideEmptyStateUi" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
     "ariaRegionName" : {
       "type" : "TRANSLATION_LITERAL",
       "value" : {
@@ -2917,24 +2965,22 @@
         "type" : "MACROPONENT"
       },
       "overrides" : null,
-      "isHidden":{
-        "type":"BINARY",
-        "operation":{
-            "left":{
-              "type":"CONTEXT_BINDING",
-              "binding":{
-                  "address":[
-                    "ribbonLocation"
-                  ],
-                  "category":"app"
-              }
-            },
-            "operator":"NOT_EQUAL",
-            "right":{
-              "type":"JSON_LITERAL",
-              "value":"header"
+      "isHidden" : {
+        "type" : "BINARY",
+        "operation" : {
+          "left" : {
+            "type" : "CONTEXT_BINDING",
+            "binding" : {
+              "address" : [ "ribbonLocation" ],
+              "category" : "app"
             }
-         }
+          },
+          "operator" : "NOT_EQUAL",
+          "right" : {
+            "type" : "JSON_LITERAL",
+            "value" : "header"
+          }
+        }
       },
       "isHero" : false,
       "preset" : {
@@ -2979,6 +3025,10 @@
     "ariaRegionHeadingLevel" : {
       "type" : "JSON_LITERAL",
       "value" : "1"
+    },
+    "hideEmptyStateUi" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
     },
     "ariaRegionName" : {
       "type" : "TRANSLATION_LITERAL",
@@ -3538,13 +3588,13 @@
   "disabled" : false
 }, {
   "name" : "table",
-  "label" : "Table",
+  "label" : "table",
   "fieldType" : null,
   "typeMetadata" : null,
   "valueType" : null,
   "mandatory" : true,
   "defaultValue" : null,
-  "description" : null,
+  "description" : "",
   "readOnly" : false,
   "selectable" : false,
   "disabled" : false
@@ -3556,7 +3606,7 @@
   "valueType" : null,
   "mandatory" : true,
   "defaultValue" : null,
-  "description" : null,
+  "description" : "",
   "readOnly" : false,
   "selectable" : false,
   "disabled" : false
@@ -3660,14 +3710,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-11 01:40:07</sys_created_on>
         <sys_id>702893ce3920311019a01cb096d60e23</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Record default</sys_name>
         <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
         <sys_update_name>sys_ux_macroponent_702893ce3920311019a01cb096d60e23</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-11 01:40:07</sys_updated_on>
+        <sys_updated_on>2023-08-11 04:52:37</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=702893ce3920311019a01cb096d60e23"/>
 </record_update>

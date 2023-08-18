@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="781bd7479760b110b0dbfcdfe153af89" sys_domain="global" table="x_1089660_electr_0_asset_request_detail" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-14 04:26:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>091bd7479760b110b0dbfcdfe153af8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1089660_electr_0_asset_request_detail" name="x_1089660_electr_0_asset_request_detail" sys_domain="global" view="bc1b97479760b110b0dbfcdfe153afe0">781bd7479760b110b0dbfcdfe153af89</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1089660_electr_0_asset_request_detail" sys_domain="global" view="bc1b97479760b110b0dbfcdfe153afe0">301bd7479760b110b0dbfcdfe153af87</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-14 04:26:51</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-14 04:26:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>851bd7479760b110b0dbfcdfe153af8d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1089660_electr_0_asset_request_detail" name="x_1089660_electr_0_asset_request_detail" sys_domain="global" view="bc1b97479760b110b0dbfcdfe153afe0">781bd7479760b110b0dbfcdfe153af89</sys_ui_form>
+            <sys_ui_section caption="Log" display_value="Log" name="x_1089660_electr_0_asset_request_detail" sys_domain="global" view="bc1b97479760b110b0dbfcdfe153afe0">b41bd7479760b110b0dbfcdfe153af88</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-14 04:26:52</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-14 04:26:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>091bd7479760b110b0dbfcdfe153af91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1089660_electr_0_asset_request_detail" name="x_1089660_electr_0_asset_request_detail" sys_domain="global" view="bc1b97479760b110b0dbfcdfe153afe0">781bd7479760b110b0dbfcdfe153af89</sys_ui_form>
+            <sys_ui_section caption="Statistics" display_value="Statistics" name="x_1089660_electr_0_asset_request_detail" sys_domain="global" view="bc1b97479760b110b0dbfcdfe153afe0">701bd7479760b110b0dbfcdfe153af89</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-14 04:26:52</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1089660_electr_0_asset_request_detail</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-14 04:26:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>781bd7479760b110b0dbfcdfe153af89</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1089660_electr_0_asset_request_detail</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+            <sys_update_name>sys_ui_form_sections_781bd7479760b110b0dbfcdfe153af89</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-14 04:26:51</sys_updated_on>
+            <sys_user/>
+            <view display_value="reviewer view" name="reviewer_view">bc1b97479760b110b0dbfcdfe153afe0</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</application>
+        <file_path/>
+        <instance_id>4dc6d809db4129545dc32f17d49619cd</instance_id>
+        <instance_name>dev148648</instance_name>
+        <name>sys_ui_form_sections_781bd7479760b110b0dbfcdfe153af89</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_sections form_id="781bd7479760b110b0dbfcdfe153af89" sys_domain="global" table="x_1089660_electr_0_asset_request_detail" version="3"><sys_ui_form_section action="INSERT_OR_UPDATE"><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-14 04:26:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>091bd7479760b110b0dbfcdfe153af8c</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_1089660_electr_0_asset_request_detail" name="x_1089660_electr_0_asset_request_detail" sys_domain="global" view="bc1b97479760b110b0dbfcdfe153afe0">781bd7479760b110b0dbfcdfe153af89</sys_ui_form><sys_ui_section caption="NULL" display_value="" name="x_1089660_electr_0_asset_request_detail" sys_domain="global" view="bc1b97479760b110b0dbfcdfe153afe0">301bd7479760b110b0dbfcdfe153af87</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-14 04:26:51</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-14 04:26:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>851bd7479760b110b0dbfcdfe153af8d</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_1089660_electr_0_asset_request_detail" name="x_1089660_electr_0_asset_request_detail" sys_domain="global" view="bc1b97479760b110b0dbfcdfe153afe0">781bd7479760b110b0dbfcdfe153af89</sys_ui_form><sys_ui_section caption="Log" display_value="Log" name="x_1089660_electr_0_asset_request_detail" sys_domain="global" view="bc1b97479760b110b0dbfcdfe153afe0">b41bd7479760b110b0dbfcdfe153af88</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-14 04:26:52</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-14 04:26:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>091bd7479760b110b0dbfcdfe153af91</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_1089660_electr_0_asset_request_detail" name="x_1089660_electr_0_asset_request_detail" sys_domain="global" view="bc1b97479760b110b0dbfcdfe153afe0">781bd7479760b110b0dbfcdfe153af89</sys_ui_form><sys_ui_section caption="Statistics" display_value="Statistics" name="x_1089660_electr_0_asset_request_detail" sys_domain="global" view="bc1b97479760b110b0dbfcdfe153afe0">701bd7479760b110b0dbfcdfe153af89</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-14 04:26:52</sys_updated_on></sys_ui_form_section><sys_ui_form action="INSERT_OR_UPDATE"><name>x_1089660_electr_0_asset_request_detail</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-14 04:26:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>781bd7479760b110b0dbfcdfe153af89</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1089660_electr_0_asset_request_detail</sys_name><sys_overrides/><sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package><sys_policy/><sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope><sys_update_name>sys_ui_form_sections_781bd7479760b110b0dbfcdfe153af89</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-14 04:26:51</sys_updated_on><sys_user/><view display_value="reviewer view" name="reviewer_view">bc1b97479760b110b0dbfcdfe153afe0</view><view_name/></sys_ui_form></sys_ui_form_sections></record_update>]]></payload>
+        <payload_hash>-1979326502</payload_hash>
+        <record_name>Asset Request Detail</record_name>
+        <reverted_from/>
+        <source>23985b0e9764b510b0dbfcdfe153af86</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-14 04:26:52</sys_created_on>
+        <sys_id>891bd7479760b110b0dbfcdfe153af93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189f24bf7350000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-14 04:26:52</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>411bd7476c60b110145509819f762e93</update_guid>
+        <update_guid_history>411bd7476c60b110145509819f762e93:-1979326502,051bd7476a60b110dc315ba7c8648d8f:1668028792,451bd747a460b110e6935ead1d81768b:1737008294</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-16 01:42:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>a1754161838147029bcfe27da5027959</sys_id>
+        <sys_metadata>781bd7479760b110b0dbfcdfe153af89</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1089660_electr_0_asset_request_detail</sys_name>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_parent display_value="Asset Request Detail">ae60c81e9728b510b0dbfcdfe153af0e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_scope_delete display_value="">04bc2c2da8b247dc8029aeed21864719</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_781bd7479760b110b0dbfcdfe153af89</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_781bd7479760b110b0dbfcdfe153af89">891bd7479760b110b0dbfcdfe153af93</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-16 01:42:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

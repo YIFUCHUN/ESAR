@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>asset_category</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-14 03:43:19</sys_created_on>
+        <sys_id>8711130f9720b110b0dbfcdfe153af99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>asset_category</sys_name>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_update_name>sys_ui_policy_action_8711130f9720b110b0dbfcdfe153af99</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-14 03:43:19</sys_updated_on>
+        <table>x_1089660_electr_0_asset_request_detail</table>
+        <ui_policy display_value="ESAR Status is not draft">8f11934b9720b110b0dbfcdfe153afa7</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</application>
+        <file_path/>
+        <instance_id>4dc6d809db4129545dc32f17d49619cd</instance_id>
+        <instance_name>dev148648</instance_name>
+        <name>sys_ui_policy_action_8711130f9720b110b0dbfcdfe153af99</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>asset_category</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-14 03:43:19</sys_created_on><sys_id>8711130f9720b110b0dbfcdfe153af99</sys_id><sys_mod_count>0</sys_mod_count><sys_name>asset_category</sys_name><sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package><sys_policy/><sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope><sys_update_name>sys_ui_policy_action_8711130f9720b110b0dbfcdfe153af99</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-14 03:43:19</sys_updated_on><table>x_1089660_electr_0_asset_request_detail</table><ui_policy display_value="ESAR Status is not draft">8f11934b9720b110b0dbfcdfe153afa7</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>143915856</payload_hash>
+        <record_name>asset_category</record_name>
+        <reverted_from/>
+        <source>23985b0e9764b510b0dbfcdfe153af86</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-14 03:43:19</sys_created_on>
+        <sys_id>cb11130f9720b110b0dbfcdfe153af9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189f22418500000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-14 03:43:19</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>c311130f8b20b110ae947e737589549b</update_guid>
+        <update_guid_history>c311130f8b20b110ae947e737589549b:143915856</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-14 03:46:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>251b9c178b2042408cc867c69ab1bd44</sys_id>
+        <sys_metadata>8711130f9720b110b0dbfcdfe153af99</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>asset_category</sys_name>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_scope_delete display_value="">04bc2c2da8b247dc8029aeed21864719</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_8711130f9720b110b0dbfcdfe153af99</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_8711130f9720b110b0dbfcdfe153af99">cb11130f9720b110b0dbfcdfe153af9b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-14 03:46:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

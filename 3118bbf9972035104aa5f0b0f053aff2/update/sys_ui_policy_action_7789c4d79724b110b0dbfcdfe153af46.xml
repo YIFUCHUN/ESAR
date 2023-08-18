@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>false</disabled>
+        <field>asset_name</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-14 07:49:57</sys_created_on>
+        <sys_id>7789c4d79724b110b0dbfcdfe153af46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>asset_name</sys_name>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_update_name>sys_ui_policy_action_7789c4d79724b110b0dbfcdfe153af46</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-14 07:49:57</sys_updated_on>
+        <table>x_1089660_electr_0_asset_request_detail</table>
+        <ui_policy display_value="writeable asset name field by asset category value">ff8984d79724b110b0dbfcdfe153afac</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1089660_electr_0.ESARUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>ESARUtils</name>
+        <script><![CDATA[var ESARUtils = Class.create();
+ESARUtils.prototype = Object.extendsObject(ESARUtilsSNC, {
+	initialize: function(request, responseXML, gc) {
+		ESARUtilsSNC.prototype.initialize.call(this, request, responseXML, gc);
+	},
+
+    type: 'ESARUtils'
+});
+ESARUtils.isCopyEnabled = function(current) {
+
+	var esarUtils = new ESARUtils();
+
+	if (esarUtils.isCopyFlagValid() && esarUtils.isCopyRulesValid(current)) {
+		return true;
+	} else {
+		return false;
+	}
+
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-18 02:21:31</sys_created_on>
+        <sys_id>11046b5897303110b0dbfcdfe153af44</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>ESARUtils</sys_name>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_update_name>sys_script_include_11046b5897303110b0dbfcdfe153af44</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-18 09:58:27</sys_updated_on>
+    </sys_script_include>
+</record_update>

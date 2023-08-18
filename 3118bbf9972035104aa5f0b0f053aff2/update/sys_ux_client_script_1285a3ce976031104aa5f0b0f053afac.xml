@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
     <sys_ux_client_script action="INSERT_OR_UPDATE">
         <includes/>
-        <macroponent display_value="Asset Request Detail Record Page">f62857ce972031104aa5f0b0f053af2b</macroponent>
+        <macroponent display_value="Record Page - SQCC">f62857ce972031104aa5f0b0f053af2b</macroponent>
         <name>viewport_gph/initiallyCollapsed</name>
         <preset/>
         <required_translations/>

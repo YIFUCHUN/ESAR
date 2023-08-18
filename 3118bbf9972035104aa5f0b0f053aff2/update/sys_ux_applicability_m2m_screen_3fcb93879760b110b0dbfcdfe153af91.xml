@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="ESAR SQCC Approve">8bde5cde97a8b510b0dbfcdfe153afd6</applicability>
+        <order>0</order>
+        <screen display_value="Record Page - SQCC">1b2857ce972031104aa5f0b0f053af69</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-14 04:30:03</sys_created_on>
+        <sys_id>3fcb93879760b110b0dbfcdfe153af91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_3fcb93879760b110b0dbfcdfe153af91</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-14 04:30:03</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>

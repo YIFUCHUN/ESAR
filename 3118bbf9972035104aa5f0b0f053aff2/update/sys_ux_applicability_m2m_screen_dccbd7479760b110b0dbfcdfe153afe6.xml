@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="ESAR TSL Confirm">191fd8de97a8b510b0dbfcdfe153af65</applicability>
+        <order>0</order>
+        <screen display_value="Record Page - TSL">028f181297e8b510b0dbfcdfe153afeb</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-14 04:29:49</sys_created_on>
+        <sys_id>dccbd7479760b110b0dbfcdfe153afe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_dccbd7479760b110b0dbfcdfe153afe6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-14 04:29:49</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>

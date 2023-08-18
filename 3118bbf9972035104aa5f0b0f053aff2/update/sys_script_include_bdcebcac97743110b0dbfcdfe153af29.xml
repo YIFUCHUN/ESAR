@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1089660_electr_0.ESARUtilsSNC</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Public functions :&#13;
+isCopyRulesValid&#13;
+isCopyFlagValid&#13;
+&#13;
+</description>
+        <name>ESARUtilsSNC</name>
+        <script><![CDATA[var ESARUtilsSNC = Class.create();
+ESARUtilsSNC.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	PROP_COPY_ENABLED: 'EnableCopyRequest',
+	
+	initialize: function(request, responseXML, gc) {
+		global.AbstractAjaxProcessor.prototype.initialize.call(this, request, responseXML, gc);
+// 		this.arrayUtil = new ArrayUtil();
+// 		this.log = new GSLog('com.snc.change_request.copy.log', 'ChangeUtilsSNC');
+		
+// 		this.STAY_ON_CURRENT_CHANGE_REQUEST_MAP[this.VERB_BACK] = true;
+	},
+	isCopyFlagValid: function() {
+		//Read property definition
+		var isCopyEnabledProp = j2js(gs.getProperty(this.PROP_COPY_ENABLED));
+
+		if (isCopyEnabledProp === 'false') {
+			return false;
+		} else {
+			return true;
+		}
+
+	},
+
+	isCopyRulesValid: function(/*GlideRecord*/ changeRequest) {
+		//Read service now rules for enabling copy
+		var rulesValid = true;
+
+		if (j2js(changeRequest.type) === 'standard') {
+			rulesValid = false;
+		}
+
+		return rulesValid;
+	},
+	
+    type: 'ESARUtilsSNC'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-18 09:03:45</sys_created_on>
+        <sys_id>bdcebcac97743110b0dbfcdfe153af29</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ESARUtilsSNC</sys_name>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_update_name>sys_script_include_bdcebcac97743110b0dbfcdfe153af29</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-18 09:41:03</sys_updated_on>
+    </sys_script_include>
+</record_update>

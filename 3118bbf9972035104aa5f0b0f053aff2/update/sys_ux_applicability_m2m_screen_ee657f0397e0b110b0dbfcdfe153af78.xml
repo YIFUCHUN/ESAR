@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="ESAR Admin Workspace">5a357b0397e0b110b0dbfcdfe153afb7</applicability>
+        <order>30</order>
+        <screen display_value="Home  - Admin">f02893ceea2031105e616713913d0133</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-14 06:21:56</sys_created_on>
+        <sys_id>ee657f0397e0b110b0dbfcdfe153af78</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_ee657f0397e0b110b0dbfcdfe153af78</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-14 07:04:36</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>

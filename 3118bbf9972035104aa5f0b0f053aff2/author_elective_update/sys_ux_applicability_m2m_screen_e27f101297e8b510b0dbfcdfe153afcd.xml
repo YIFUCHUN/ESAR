@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="DELETE">
+        <active>true</active>
+        <applicability display_value="ESAR SQCC Approve">8bde5cde97a8b510b0dbfcdfe153afd6</applicability>
+        <order>1</order>
+        <screen display_value="Record Page - SQCC">1b2857ce972031104aa5f0b0f053af69</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 06:51:47</sys_created_on>
+        <sys_id>e27f101297e8b510b0dbfcdfe153afcd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_e27f101297e8b510b0dbfcdfe153afcd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 08:24:43</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</application>
+        <file_path/>
+        <instance_id>4dc6d809db4129545dc32f17d49619cd</instance_id>
+        <instance_name>dev148648</instance_name>
+        <name>sys_ux_applicability_m2m_screen_e27f101297e8b510b0dbfcdfe153afcd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen"><sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE"><active>true</active><applicability display_value="ESAR SQCC Approve">8bde5cde97a8b510b0dbfcdfe153afd6</applicability><order>1</order><screen display_value="Record Page - SQCC">1b2857ce972031104aa5f0b0f053af69</screen><sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-11 06:51:47</sys_created_on><sys_id>e27f101297e8b510b0dbfcdfe153afcd</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package><sys_policy/><sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope><sys_update_name>sys_ux_applicability_m2m_screen_e27f101297e8b510b0dbfcdfe153afcd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-11 08:24:43</sys_updated_on></sys_ux_applicability_m2m_screen></record_update>]]></payload>
+        <payload_hash>418094630</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>23985b0e9764b510b0dbfcdfe153af86</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 08:24:43</sys_created_on>
+        <sys_id>84c4741a972cb510b0dbfcdfe153af2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189e3b2a6120000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 08:24:43</sys_updated_on>
+        <type>Screen Applicability</type>
+        <update_guid>0cc4741a7e2cb51082bc4fbf0991392d</update_guid>
+        <update_guid_history>0cc4741a7e2cb51082bc4fbf0991392d:418094630,a67f101249e8b5108577a8b5520c44cf:409527470</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 09:27:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_applicability_m2m_screen">sys_ux_applicability_m2m_screen</sys_db_object>
+        <sys_id>9a0f78c7555749a49473156ee3227184</sys_id>
+        <sys_metadata>e27f101297e8b510b0dbfcdfe153afcd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_scope_delete display_value="">04bc2c2da8b247dc8029aeed21864719</sys_scope_delete>
+        <sys_update_name>sys_ux_applicability_m2m_screen_e27f101297e8b510b0dbfcdfe153afcd</sys_update_name>
+        <sys_update_version display_value="sys_ux_applicability_m2m_screen_e27f101297e8b510b0dbfcdfe153afcd">84c4741a972cb510b0dbfcdfe153af2e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 09:27:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

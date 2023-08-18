@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>copy_esar_request</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments>Copies current eSAR record and redirects to the new unsaved request</comments>
+        <condition>gs.hasRole("x_1089660_electr_0.user,x_1089660_electr_0.admin") &amp;&amp; ESARUtils.isCopyEnabled(current)</condition>
+        <form_action>true</form_action>
+        <form_button>false</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>true</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Copy Request</name>
+        <onclick>OnCopyChangeClick()</onclick>
+        <order>25</order>
+        <script><![CDATA[function OnCopyChangeClick() {
+	function addParam(form, name, val) {
+		var inp = cel('textarea', form);
+		inp.name = name;
+		inp.value = val;
+	}
+
+	var srcSysId = g_form.getUniqueValue();
+	debugger;
+	var ga = new GlideAjax('ESARUtils');
+	ga.addParam('sysparm_name', 'getChangeQueryParams');
+	ga.addParam('sysparm_src_sysid', srcSysId);
+	ga.setWantSessionMessages(true);
+	ga.getXMLAnswer(function (queryParam) {
+		if (queryParam) {
+			var gotoURL = new GlideURL('x_1089660_electr_0_asset_request_detail.do');
+			gotoURL.setEncode(false);
+			gotoURL.addToken();
+			gotoURL.addParam('srcSysID', srcSysId);
+			gotoURL.addParam('newSysID', '$sys_id');
+			gotoURL.addParam('sysparm_returned_action', '$action');
+
+			var form = cel('form', document.body);
+			hide(form);
+			form.method = "POST";
+			form.action = g_form.getTableName() + ".do";
+			if (typeof g_ck != 'undefined' && g_ck != "")
+				addParam(form, 'sysparm_ck', g_ck);
+			addParam(form, 'sys_id', '-1');
+			addParam(form, 'sysparm_query', queryParam);
+			addParam(form, 'sysparm_goto_url', gotoURL.getURL());
+			form.submit();
+		}
+	});
+}
+]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-16 15:36:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>40c6c88897fc3510b0dbfcdfe153af4c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Copy Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_update_name>sys_ui_action_40c6c88897fc3510b0dbfcdfe153af4c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-18 09:49:09</sys_updated_on>
+        <table>x_1089660_electr_0_asset_request_detail</table>
+        <ui11_compatible>false</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

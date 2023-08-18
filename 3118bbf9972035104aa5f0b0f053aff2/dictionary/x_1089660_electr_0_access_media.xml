@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="267a970c97f87510b0dbfcdfe153af36" label="Access Media" max_length="40" name="x_1089660_electr_0_access_media" type="collection">
+        <element label="Media Name" max_length="40" name="media_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Request" max_length="32" name="request" reference="x_1089660_electr_0_asset_request_detail" type="reference"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Check-in" sequence="0" value="check_in"/>
+                <element inactive_on_update="false" label="Check-out" sequence="1" value="check_out"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="request"/>
+        </index>
+    </element>
+</database>

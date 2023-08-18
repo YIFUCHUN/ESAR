@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_1089660_electr_0.GetAssetInfo</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Script Include to return asset name list by target asset category</description>
+        <name>GetAssetInfo</name>
+        <script><![CDATA[var GetAssetInfo = Class.create();
+// Extend the global.AbstractAjaxProcessor class
+GetAssetInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor,{
+
+  getAssets: function() {
+
+    var assetRecord = new GlideRecord("x_1089660_electr_0_asset_detail");	  
+    assetRecord.get("asset_category", this.getParameter('sysparm_asset_category'));
+	gs.info(assetRecord.getAttribute());
+	// Build the payload. You can return additional data if needed. 
+//         var result = {    
+//            "manager": grUser.getDisplayValue('manager')
+//         }; 
+        return JSON.stringify(assetRecord);
+//     return assetRecord;
+  },
+  type: 'GetAssetInfo'
+});
+
+// var GetAssetInfo = Class.create();
+// GetAssetInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+//     managerName: function() {
+//         var userName = this.getParameter("sysparm_asset_category");
+//         var grUser = new GlideRecord('x_1089660_electr_0_asset_detail');
+//         grUser.get("asset_category", userName);
+
+//         // Build the payload. You can return additional data if needed. 
+// //         var result = {    
+// //            "manager": grUser.getDisplayValue('manager')
+// //         }; 
+//         return JSON.stringify(grUser);
+//     },
+//     type: 'GetAssetInfo'
+// });]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 07:32:41</sys_created_on>
+        <sys_id>5f46e01a97e8b510b0dbfcdfe153af5a</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>GetAssetInfo</sys_name>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_update_name>sys_script_include_5f46e01a97e8b510b0dbfcdfe153af5a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-13 14:21:20</sys_updated_on>
+    </sys_script_include>
+</record_update>

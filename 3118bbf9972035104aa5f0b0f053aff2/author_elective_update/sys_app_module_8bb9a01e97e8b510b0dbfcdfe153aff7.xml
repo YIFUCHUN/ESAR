@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="ESAR">1620510a97ac7510b0dbfcdfe153afbe</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Workspace</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>400</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>/x/1089660/electronic-system-access-request-approve/home</query>
+        <report/>
+        <roles>x_1089660_electr_0.sqcc,x_1089660_electr_0.tsl</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 07:39:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8bb9a01e97e8b510b0dbfcdfe153aff7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Request Approval Workspace</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_update_name>sys_app_module_8bb9a01e97e8b510b0dbfcdfe153aff7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 08:12:04</sys_updated_on>
+        <timeline_page/>
+        <title>Request Approval Workspace</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</application>
+        <file_path/>
+        <instance_id>4dc6d809db4129545dc32f17d49619cd</instance_id>
+        <instance_name>dev148648</instance_name>
+        <name>sys_app_module_8bb9a01e97e8b510b0dbfcdfe153aff7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="ESAR">1620510a97ac7510b0dbfcdfe153afbe</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>DIRECT</link_type><map_page/><mobile_title>Workspace</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>400</order><override_menu_roles>false</override_menu_roles><query>/x/1089660/electronic-system-access-request-approve/home</query><report/><roles>x_1089660_electr_0.sqcc,x_1089660_electr_0.tsl</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-11 07:39:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8bb9a01e97e8b510b0dbfcdfe153aff7</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Request Approval Workspace</sys_name><sys_overrides/><sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package><sys_policy/><sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope><sys_update_name>sys_app_module_8bb9a01e97e8b510b0dbfcdfe153aff7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-11 08:12:04</sys_updated_on><timeline_page/><title>Request Approval Workspace</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>205912359</payload_hash>
+        <record_name>Request Approval Workspace</record_name>
+        <reverted_from/>
+        <source>23985b0e9764b510b0dbfcdfe153af86</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 08:12:04</sys_created_on>
+        <sys_id>7ed1b016972cb510b0dbfcdfe153af9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189e3a711e90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 08:12:04</sys_updated_on>
+        <type>Module</type>
+        <update_guid>f2d1b0162c2cb510425a0f05ee64ef9f</update_guid>
+        <update_guid_history>f2d1b0162c2cb510425a0f05ee64ef9f:205912359,166aecda40e8b510deae137eceb5d975:-1153940428</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Request Approval Workspace">a60401d6976cb510b0dbfcdfe153af2d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 09:31:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>d69e898893714b03b086de9b48c343a9</sys_id>
+        <sys_metadata>8bb9a01e97e8b510b0dbfcdfe153aff7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Approval Workspace</sys_name>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_scope_delete display_value="">04bc2c2da8b247dc8029aeed21864719</sys_scope_delete>
+        <sys_update_name>sys_app_module_8bb9a01e97e8b510b0dbfcdfe153aff7</sys_update_name>
+        <sys_update_version display_value="sys_app_module_8bb9a01e97e8b510b0dbfcdfe153aff7">7ed1b016972cb510b0dbfcdfe153af9f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 09:31:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

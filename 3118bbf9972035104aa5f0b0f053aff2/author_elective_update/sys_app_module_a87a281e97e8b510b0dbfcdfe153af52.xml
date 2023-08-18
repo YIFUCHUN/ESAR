@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="ESAR">1620510a97ac7510b0dbfcdfe153afbe</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Confirm Request Workspace</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>500</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>/x/1089660/electronic-system-access-request-approve/home</query>
+        <report/>
+        <roles>x_1089660_electr_0.tsl</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 07:40:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a87a281e97e8b510b0dbfcdfe153af52</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Request Confirm Workspace</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_update_name>sys_app_module_a87a281e97e8b510b0dbfcdfe153af52</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 08:02:33</sys_updated_on>
+        <timeline_page/>
+        <title>Request Confirm Workspace</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</application>
+        <file_path/>
+        <instance_id>4dc6d809db4129545dc32f17d49619cd</instance_id>
+        <instance_name>dev148648</instance_name>
+        <name>sys_app_module_a87a281e97e8b510b0dbfcdfe153af52</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="ESAR">1620510a97ac7510b0dbfcdfe153afbe</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>DIRECT</link_type><map_page/><mobile_title>Confirm Request Workspace</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>500</order><override_menu_roles>false</override_menu_roles><query>/x/1089660/electronic-system-access-request-approve/home</query><report/><roles>x_1089660_electr_0.tsl</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-11 07:40:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a87a281e97e8b510b0dbfcdfe153af52</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Request Confirm Workspace</sys_name><sys_overrides/><sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package><sys_policy/><sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope><sys_update_name>sys_app_module_a87a281e97e8b510b0dbfcdfe153af52</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-11 08:02:33</sys_updated_on><timeline_page/><title>Request Confirm Workspace</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-117739577</payload_hash>
+        <record_name>Request Confirm Workspace</record_name>
+        <reverted_from/>
+        <source>23985b0e9764b510b0dbfcdfe153af86</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 08:02:33</sys_created_on>
+        <sys_id>93afac92972cb510b0dbfcdfe153afdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189e39e5d0a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 08:02:33</sys_updated_on>
+        <type>Module</type>
+        <update_guid>d7afac922d2cb510f97e3b6c256046de</update_guid>
+        <update_guid_history>d7afac922d2cb510f97e3b6c256046de:-117739577,a29a6c1ef2e8b5105586971fd2c02639:302272455</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Request Confirm Workspace">6ae17456972cb510b0dbfcdfe153af4f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 08:12:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>3a50d45a7c5a467a9dc9ac26bf2a7f19</sys_id>
+        <sys_metadata>a87a281e97e8b510b0dbfcdfe153af52</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Confirm Workspace</sys_name>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_scope_delete display_value="">04bc2c2da8b247dc8029aeed21864719</sys_scope_delete>
+        <sys_update_name>sys_app_module_a87a281e97e8b510b0dbfcdfe153af52</sys_update_name>
+        <sys_update_version display_value="sys_app_module_a87a281e97e8b510b0dbfcdfe153af52">93afac92972cb510b0dbfcdfe153afdf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 08:12:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

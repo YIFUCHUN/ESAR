@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="ESAR">1620510a97ac7510b0dbfcdfe153afbe</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>All</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1089660_electr_0_asset_request_detail</name>
+        <order>100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_1089660_electr_0.admin,x_1089660_electr_0.tsl,x_1089660_electr_0.sqcc</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-10 16:01:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c8f05d0a97ac7510b0dbfcdfe153afe2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>All Requests</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_update_name>sys_app_module_c8f05d0a97ac7510b0dbfcdfe153afe2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 01:44:31</sys_updated_on>
+        <timeline_page/>
+        <title>All Requests</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</application>
+        <file_path/>
+        <instance_id>4dc6d809db4129545dc32f17d49619cd</instance_id>
+        <instance_name>dev148648</instance_name>
+        <name>sys_app_module_c8f05d0a97ac7510b0dbfcdfe153afe2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="ESAR">1620510a97ac7510b0dbfcdfe153afbe</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>All</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1089660_electr_0_asset_request_detail</name><order>100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_1089660_electr_0.admin,x_1089660_electr_0.tsl,x_1089660_electr_0.sqcc</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-10 16:01:19</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c8f05d0a97ac7510b0dbfcdfe153afe2</sys_id><sys_mod_count>2</sys_mod_count><sys_name>All Requests</sys_name><sys_overrides/><sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package><sys_policy/><sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope><sys_update_name>sys_app_module_c8f05d0a97ac7510b0dbfcdfe153afe2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-11 01:44:31</sys_updated_on><timeline_page/><title>All Requests</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>749868316</payload_hash>
+        <record_name>All Requests</record_name>
+        <reverted_from/>
+        <source>23985b0e9764b510b0dbfcdfe153af86</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 01:44:31</sys_created_on>
+        <sys_id>a929130697a4b510b0dbfcdfe153af7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189e24440a90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 01:44:31</sys_updated_on>
+        <type>Module</type>
+        <update_guid>a129130612a4b51028bc4b7d4d46227b</update_guid>
+        <update_guid_history>a129130612a4b51028bc4b7d4d46227b:749868316,6978d3c226a4b510fa9616789de65501:0,6bf75b823fa4b510fbbc79dbbf91a964:1629209620,69b0570af1e0b510a9ade32df56f004a:-1598059030,67402d868fec7510ce63870814f36f73:-1800087064,b2a3510a17ac7510326bf7a61c0fa5c8:1376134818</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="All Requests">0d20401e9728b510b0dbfcdfe153af4d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 04:34:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>6358b5b8537b47baad6034c0ed4279b9</sys_id>
+        <sys_metadata>c8f05d0a97ac7510b0dbfcdfe153afe2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Requests</sys_name>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_scope_delete display_value="">04bc2c2da8b247dc8029aeed21864719</sys_scope_delete>
+        <sys_update_name>sys_app_module_c8f05d0a97ac7510b0dbfcdfe153afe2</sys_update_name>
+        <sys_update_version display_value="sys_app_module_c8f05d0a97ac7510b0dbfcdfe153afe2">a929130697a4b510b0dbfcdfe153af7b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 04:34:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

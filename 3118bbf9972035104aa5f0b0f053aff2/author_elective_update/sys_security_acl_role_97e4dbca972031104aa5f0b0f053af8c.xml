@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 01:26:03</sys_created_on>
+        <sys_id>97e4dbca972031104aa5f0b0f053af8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1089660_electr_0_asset_request_detail.x_1089660_electr_0.user</sys_name>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_security_acl display_value="x_1089660_electr_0_asset_request_detail">d3e4dbca972031104aa5f0b0f053af8a</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_97e4dbca972031104aa5f0b0f053af8c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 01:26:03</sys_updated_on>
+        <sys_user_role display_value="x_1089660_electr_0.user" name="x_1089660_electr_0.user">b918fbf9972035104aa5f0b0f053af0e</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</application>
+        <file_path/>
+        <instance_id>4dc6d809db4129545dc32f17d49619cd</instance_id>
+        <instance_name>dev148648</instance_name>
+        <name>sys_security_acl_role_97e4dbca972031104aa5f0b0f053af8c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 01:26:03</sys_created_on>
+        <sys_id>97e4dbca972031104aa5f0b0f053af8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1089660_electr_0_asset_request_detail.x_1089660_electr_0.user</sys_name>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_security_acl display_value="x_1089660_electr_0_asset_request_detail">d3e4dbca972031104aa5f0b0f053af8a</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_97e4dbca972031104aa5f0b0f053af8c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 01:26:03</sys_updated_on>
+        <sys_user_role display_value="x_1089660_electr_0.user" name="x_1089660_electr_0.user">b918fbf9972035104aa5f0b0f053af0e</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>]]></payload>
+        <payload_hash>-1893303638</payload_hash>
+        <record_name>x_1089660_electr_0_asset_request_detail.x_1089660_electr_0.user</record_name>
+        <reverted_from/>
+        <source>947853c297a4b510b0dbfcdfe153af18</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 01:41:31</sys_created_on>
+        <sys_id>717817c297a4b510b0dbfcdfe153af83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189e241840a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 01:41:31</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>317817c260a4b51098b9967655b12883</update_guid>
+        <update_guid_history>317817c260a4b51098b9967655b12883:-1893303638</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1089660_electr_0_asset_request_detail.x_1089660_electr_0.user">0d20401e9728b510b0dbfcdfe153af26</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 04:34:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>e21cb1aa04574e5e927a8cc45f2c2051</sys_id>
+        <sys_metadata>97e4dbca972031104aa5f0b0f053af8c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1089660_electr_0_asset_request_detail.x_1089660_electr_0.user</sys_name>
+        <sys_package display_value="Electronic System Access Request System" source="x_1089660_electr_0">3118bbf9972035104aa5f0b0f053aff2</sys_package>
+        <sys_parent display_value="">d3e4dbca972031104aa5f0b0f053af8a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Electronic System Access Request System">3118bbf9972035104aa5f0b0f053aff2</sys_scope>
+        <sys_scope_delete display_value="">04bc2c2da8b247dc8029aeed21864719</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_97e4dbca972031104aa5f0b0f053af8c</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_97e4dbca972031104aa5f0b0f053af8c">717817c297a4b510b0dbfcdfe153af83</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 04:34:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
